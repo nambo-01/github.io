@@ -77,23 +77,28 @@ main .container{
   text-align: center;
 }
 
-.portfolio_delimiter{
+.portfolio_delimiter {
   background-color: rgba(255, 255, 255,0.8);
   width: 100%;
   height: 100%;
   min-height: 70vh;
 }
 
-.portfolio_delimiter2{
+.portfolio_delimiter2 {
   height: 100%;
   min-height: 100vh;
   width: 100%;
 }
 
-.portfolio_delimiter3{
+.portfolio_delimiter3 {
   background-color: rgba(255, 255, 255,0.8);
   height: 100%;
   min-height: 100vh;
+  width: 100%;
+}
+
+.portfolio_delimiter4 {
+  height: 50vh;
   width: 100%;
 }
 
@@ -144,10 +149,12 @@ main .container{
 
 .card-wrapper{
   justify-content: space-between;
-  min-width: 350px;
+  width: 100%;
+  min-width: 310px;
   max-width: 400px;
   height: 300px;
-  margin: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
   display: inline-block;
   background-color: rgba(255, 255, 255,0.8);
 }
@@ -182,13 +189,13 @@ main .container{
   margin: 0 20px 20px;
   display: inline-block;
   border: 1px solid rgb(209, 207, 207);
-  min-width: 350px;
+  min-width: 310px;
   max-width: 90px;
 }
 
 .all-works img {
-  min-width: 350px;
-  max-width: 90px;
+  min-width: 300px;
+  max-width: 90%;
   height: 225px;
   cursor: pointer;
 }
@@ -304,10 +311,6 @@ main .container{
 }
 
 /* ----------CONTACT---------- */
-.contact-class {
-  height: 80vh;
-}
-
 #twitter_b {
   margin: 30px auto 0;
   border-bottom: solid;
