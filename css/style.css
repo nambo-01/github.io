@@ -221,7 +221,7 @@ main .container{
   margin: -10px auto 20px;
 }
 
-#close, #close2 {
+#close, #close2, #close3 {
   cursor: pointer;
   width: 150px;
   border: 1px solid #ccc;
@@ -231,7 +231,7 @@ main .container{
   margin: 16px auto 0;
 }
 
-#mask, #mask2 {
+#mask, #mask2, #mask3 {
   background-color: rgba(0, 0, 0, 0.6);
   position: fixed;
   top: 0;
@@ -240,7 +240,7 @@ main .container{
   left: 0;
 }
 
-#modal, #modal2 {
+#modal, #modal2, #modal3 {
   background-color: #fff;
   width: 90%;
   height: 70%;
@@ -263,24 +263,32 @@ main .container{
 #modal2 > p {
   margin: 0 0 10px;
 }
+#modal3 > p {
+  margin: 0 0 10px;
+}
 
 #mask.hidden {
+  display: none;
+}
+#modal.hidden {
   display: none;
 }
 
 #mask2.hidden2 {
   display: none;
 }
-
-#modal.hidden {
-  display: none;
-}
-
 #modal2.hidden2 {
   display: none;
 }
 
-.hidden, .hidden2 {
+#mask3.hidden3 {
+  display: none;
+}
+#modal3.hidden3 {
+  display: none;
+}
+
+.hidden, .hidden2, .hidden3 {
   position: relative;
 }
 
